@@ -20,7 +20,6 @@ class MVN():
         return multivariate_normal(self.mean,self.cov)
     
 # Distributional Details
-    
 # Bounds for search of random parameters
 bd=4
 # Initialize distribution components
