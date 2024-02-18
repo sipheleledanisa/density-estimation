@@ -10,3 +10,5 @@ _Here is a summary of what is in each:_
   - _fitting + animation logic_
 
 _In order to generate the animation, it is enough to run animation.py._
+
+_This may be extended to include more methods in the future, depending on my reading interests._
