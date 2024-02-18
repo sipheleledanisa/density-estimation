@@ -15,8 +15,10 @@ class MVN():
         self.mean = mean
         self.cov = cov
     def dlnprob(self, x):
+        # Log prob derivative
         return -1 * np.matmul((x - self.mean), np.linalg.inv(self.cov))
     def dist(self):
+        # Defining the MVN object
         return multivariate_normal(self.mean,self.cov)
     
 # Distributional Details
