@@ -5,7 +5,7 @@ from scipy.spatial.distance import pdist, squareform
 class Kernel():
     """Kernel specifications:
     K(x,y)  = exp((-1/h)*||x-y||**2)
-    dK(x,y) = (2/h)*K(x,y)*||x-y||
+    dK(x,y) = (2/h)*K(x,y)*(x-y)
     """
     def __init__(self):
         pass
